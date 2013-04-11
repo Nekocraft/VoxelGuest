@@ -76,6 +76,7 @@
     <build>
         <sourceDirectory>${basedir}/src/main/java/</sourceDirectory>
         <defaultGoal>clean package</defaultGoal>
+        <finalName>${project.name}</finalName>
 
         <!-- Resources -->
         <resources>
